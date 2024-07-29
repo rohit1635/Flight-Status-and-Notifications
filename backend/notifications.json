@@ -1,0 +1,171 @@
+[
+    {
+      "notification_id": "1",
+      "flight_id": "6E 2341",
+      "message": "Your flight 6E 2341 is on time. Departure gate: A12.",
+      "timestamp": "2024-07-26T13:00:00Z",
+      "method": "SMS",
+      "recipient": "+919971263439"
+    },
+    {
+      "notification_id": "2",
+      "flight_id": "6E 2342",
+      "message": "Your flight 6E 2342 is delayed. New departure time: 2024-07-26T17:00:00Z. Departure gate: C3.",
+      "timestamp": "2024-07-26T15:30:00Z",
+      "method": "Email",
+      "recipient": "surbhigurjar1512@gmail.com"
+    },
+    {
+      "notification_id": "3",
+      "flight_id": "6E 2343",
+      "message": "Your flight 6E 2343 has been cancelled.",
+      "timestamp": "2024-07-26T11:00:00Z",
+      "method": "App",
+      "recipient": "user_app_id_12345"
+    },
+    {
+      "notification_id": "4",
+      "flight_id": "6E 2344",
+      "message": "Your flight 6E 2344 is on time. Departure gate: B1.",
+      "timestamp": "2024-07-27T09:00:00Z",
+      "method": "SMS",
+      "recipient": "+918949052394"
+    },
+    {
+      "notification_id": "5",
+      "flight_id": "6E 2345",
+      "message": "Your flight 6E 2345 is delayed. New departure time: 2024-07-27T16:00:00Z. Departure gate: D5.",
+      "timestamp": "2024-07-27T14:30:00Z",
+      "method": "Email",
+      "recipient": "user2@example.com"
+    },
+    {
+      "notification_id": "6",
+      "flight_id": "6E 2346",
+      "message": "Your flight 6E 2346 is on time. Departure gate: A3.",
+      "timestamp": "2024-07-28T07:00:00Z",
+      "method": "App",
+      "recipient": "user_app_id_12346"
+    },
+    {
+      "notification_id": "7",
+      "flight_id": "6E 2347",
+      "message": "Your flight 6E 2347 is on time. Departure gate: C1.",
+      "timestamp": "2024-07-28T10:00:00Z",
+      "method": "SMS",
+      "recipient": "+1234567892"
+    },
+    {
+      "notification_id": "8",
+      "flight_id": "6E 2348",
+      "message": "Your flight 6E 2348 has been cancelled.",
+      "timestamp": "2024-07-28T12:00:00Z",
+      "method": "Email",
+      "recipient": "user3@example.com"
+    },
+    {
+      "notification_id": "9",
+      "flight_id": "6E 2349",
+      "message": "Your flight 6E 2349 is delayed. New departure time: 2024-07-28T15:00:00Z. Departure gate: B3.",
+      "timestamp": "2024-07-28T13:30:00Z",
+      "method": "App",
+      "recipient": "user_app_id_12347"
+    },
+    {
+      "notification_id": "10",
+      "flight_id": "6E 2350",
+      "message": "Your flight 6E 2350 is on time. Departure gate: A1.",
+      "timestamp": "2024-07-29T08:00:00Z",
+      "method": "SMS",
+      "recipient": "+1234567893"
+    },
+    {
+      "notification_id": "11",
+      "flight_id": "6E 2351",
+      "message": "Your flight 6E 2351 is delayed. New departure time: 2024-07-29T12:00:00Z. Departure gate: C5.",
+      "timestamp": "2024-07-29T10:30:00Z",
+      "method": "Email",
+      "recipient": "user4@example.com"
+    },
+    {
+      "notification_id": "12",
+      "flight_id": "6E 2352",
+      "message": "Your flight 6E 2352 has been cancelled.",
+      "timestamp": "2024-07-29T15:00:00Z",
+      "method": "App",
+      "recipient": "user_app_id_12348"
+    },
+    {
+      "notification_id": "13",
+      "flight_id": "6E 2353",
+      "message": "Your flight 6E 2353 is on time. Departure gate: A4.",
+      "timestamp": "2024-07-30T06:00:00Z",
+      "method": "SMS",
+      "recipient": "+1234567894"
+    },
+    {
+      "notification_id": "14",
+      "flight_id": "6E 2354",
+      "message": "Your flight 6E 2354 is delayed. New departure time: 2024-07-30T11:00:00Z. Departure gate: D6.",
+      "timestamp": "2024-07-30T09:30:00Z",
+      "method": "Email",
+      "recipient": "user5@example.com"
+    },
+    {
+      "notification_id": "15",
+      "flight_id": "6E 2355",
+      "message": "Your flight 6E 2355 has been cancelled.",
+      "timestamp": "2024-07-30T11:00:00Z",
+      "method": "App",
+      "recipient": "user_app_id_12349"
+    },
+    {
+      "notification_id": "16",
+      "flight_id": "6E 2356",
+      "message": "Your flight 6E 2356 is on time. Departure gate: B4.",
+      "timestamp": "2024-07-30T13:00:00Z",
+      "method": "SMS",
+      "recipient": "+1234567895"
+    },
+    {
+      "notification_id": "17",
+      "flight_id": "6E 2357",
+      "message": "Your flight 6E 2357 is delayed. New departure time: 2024-07-30T17:00:00Z. Departure gate: E3.",
+      "timestamp": "2024-07-30T15:30:00Z",
+      "method": "Email",
+      "recipient": "user6@example.com"
+    },
+    {
+      "notification_id": "18",
+      "flight_id": "6E 2358",
+      "message": "Your flight 6E 2358 has been cancelled.",
+      "timestamp": "2024-07-31T07:00:00Z",
+      "method": "App",
+      "recipient": "user_app_id_12350"
+    },
+    {
+      "notification_id": "19",
+      "flight_id": "6E 2359",
+      "message": "Your flight 6E 2359 is on time. Departure gate: C5.",
+      "timestamp": "2024-07-31T09:00:00Z",
+      "method": "SMS",
+      "recipient": "+1234567896"
+    },
+    {
+      "notification_id": "20",
+      "flight_id": "6E 2360",
+      "message": "Your flight 6E 2360 is delayed. New departure time: 2024-07-31T13:00:00Z. Departure gate: B2.",
+      "timestamp": "2024-07-31T11:30:00Z",
+      "method": "Email",
+      "recipient": "user7@example.com"
+    },
+    {
+      "notification_id": "21",
+      "flight_id": "6E 2361",
+      "message": "Your flight 6E 2361 is on time. Departure gate: A7.",
+      "timestamp": "2024-07-31T13:00:00Z",
+      "method": "App",
+      "recipient": "user_app_id_12351"
+    }
+  ]
+  
