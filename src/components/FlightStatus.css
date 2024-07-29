@@ -1,0 +1,120 @@
+.container {
+    padding: 20px;
+  }
+  
+  .flight-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    width: calc(50% - 50px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #3e70e6;
+    border-bottom: 1px solid #ddd;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .flight-id {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 280px;
+  }
+
+  .dep{
+    display: block;
+    background: #a6d6f0;
+    width: 110px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-left: 100px;
+  }
+  
+  .flight-status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .status-on-time {
+    background-color: green;
+  }
+  
+  .status-delayed {
+    background-color: red;
+  }
+  
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .flight-info-column {
+    width: 48%;
+  }
+  
+  .flight-info-column h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .flight-info-row {
+    display: inline-block;
+    width: 160px;
+    padding-bottom: 10px;
+    border-color: rgba(0, 0, 0, .1);
+    border-width: 2px ;
+    background: #ebedf1;
+    position: relative;
+    margin-left: 60px;
+  }
+  
+  .flight-info-row div {
+    font-size: 0.9em;
+    
+  }
+  
+  .gate {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    border: 2px solid #6a7c93;
+    width: fit-content;
+    margin-left: 90px;
+  }
+  
+  .gate div:first-child {
+    background: #6a7c93;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  
+  .gate div:last-child {
+    background: white;
+    color: #333;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+  
