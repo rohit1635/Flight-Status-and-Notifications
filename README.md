@@ -39,7 +39,7 @@ The Flight Management and Notification System is a comprehensive solution design
 
 #### Setup Instructions
 
-### 1. Clone the Repository
+1. **Clone the Repository**
 
 ```bash
 git clone https://github.com/your-repo/project-name.git
