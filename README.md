@@ -42,8 +42,8 @@ The Flight Management and Notification System is a comprehensive solution design
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-repo/project-name.git
-cd project-name
+git clone https://github.com/rohit1635/Flight-Status-and-Notifications.git
+cd Flight-Status-and-Notifications
 ```
 
 2. **Start Kafka**
