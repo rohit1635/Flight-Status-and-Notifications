@@ -7,7 +7,7 @@ The Flight Management and Notification System is a comprehensive solution design
 
 - **Backend**: Node.js, Express.js
   - Handles API requests, database operations, and notification logic.
-- **Frontend**: React
+- **Frontend**: React.js
   - Provides a user interface for managing flights and notifications.
 - **Database**: MySQL
   - Stores flight information and notifications.
