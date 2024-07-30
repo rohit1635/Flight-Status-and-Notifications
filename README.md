@@ -46,7 +46,7 @@ git clone https://github.com/rohit1635/Flight-Status-and-Notifications.git
 cd Flight-Status-and-Notifications
 ```
 2. **Set up MySQL Database**
-   -Import the provided schema.sql file to set up the database tables.
+    - Import the provided schema.sql file to set up the database tables.
 
 3. **Start Kafka**
 
