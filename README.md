@@ -45,8 +45,10 @@ The Flight Management and Notification System is a comprehensive solution design
 git clone https://github.com/rohit1635/Flight-Status-and-Notifications.git
 cd Flight-Status-and-Notifications
 ```
+2. **Set up MySQL Database**
+   -Import the provided schema.sql file to set up the database tables.
 
-2. **Start Kafka**
+3. **Start Kafka**
 
     Ensure Kafka and Zookeeper are running. Start Zookeeper:
 
@@ -60,7 +62,7 @@ cd Flight-Status-and-Notifications
     bin/kafka-server-start.sh config/server.properties
     ```
 
-3. **Start the Backend Server**
+4. **Start the Backend Server**
 
     ```bash
     node index.js
@@ -73,7 +75,7 @@ cd Flight-Status-and-Notifications
     node kafkaConsumer.js
     ```
 
-4. **Start the Frontend Server**
+5. **Start the Frontend Server**
 
     ```bash
     npm start
