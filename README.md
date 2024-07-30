@@ -84,11 +84,9 @@ cd Flight-Status-and-Notifications
 - **Flights API**:
   - `GET /api/flights`: Fetch all flights.
   - `POST /api/flights/update`: Update a flight's details and notifications related to it.
-  - `GET /api/notifications`: Fetch all notifications.
-  - `POST /api/notifications/send`: send notification to a user using kafka.
 
 - **Notifications API**:
   - `GET /api/notifications`: Fetch all notifications.
-  - `POST /api/notifications/send`: Send a notification.
+  - `POST /api/notifications/send`: Send a notification to the user using Kafka.
 
 This README file provides an overview of the project, its features, tech stack, and setup instructions to help you get started with the Flight Management and Notification System.
