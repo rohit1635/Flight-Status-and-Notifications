@@ -1,0 +1,104 @@
+.notification-container {
+  padding: 40px;
+  background-color: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.notification-container h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.notification-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.notification-card {
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 550px;
+  cursor: pointer;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.notification-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.notification-row {
+  margin-bottom: 10px;
+}
+
+.notification-id,
+.notification-flight,
+.notification-message,
+.notification-method,
+.notification-recipient {
+  margin-bottom: 10px;
+}
+
+.notification-id {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.notification-flight {
+  font-size: 18px;
+  color: #555;
+}
+
+.notification-message {
+  color: #666;
+  font-size: 16px;
+}
+
+.notification-method,
+.notification-recipient {
+  color: #888;
+  font-size: 14px;
+}
+
+.notification-method,
+.notification-recipient {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.custom-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
