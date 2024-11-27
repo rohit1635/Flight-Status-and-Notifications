@@ -63,8 +63,12 @@ cd Flight-Status-and-Notifications
     bin/kafka-server-start.sh config/server.properties
     bin\windows\kafka-server-start.bat config\server.properties
     ```
+    Create Topic:
+   ```bash
+   bin\windows\kafka-topics.bat --create --topic notifications --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+   ```
 
-4. **Start the Backend Server**
+5. **Start the Backend Server**
 
     ```bash
     node index.js
@@ -77,7 +81,7 @@ cd Flight-Status-and-Notifications
     node kafkaConsumer.js
     ```
 
-5. **Start the Frontend Server**
+6. **Start the Frontend Server**
 
     ```bash
     npm start
