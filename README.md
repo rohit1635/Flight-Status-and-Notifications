@@ -54,12 +54,14 @@ cd Flight-Status-and-Notifications
 
     ```bash
     bin/zookeeper-server-start.sh config/zookeeper.properties
+    bin\windows\zookeeper-server-start.bat config\zookeeper.properties
     ```
 
     Start Kafka:
 
     ```bash
     bin/kafka-server-start.sh config/server.properties
+    bin\windows\kafka-server-start.bat config\server.properties
     ```
 
 4. **Start the Backend Server**
